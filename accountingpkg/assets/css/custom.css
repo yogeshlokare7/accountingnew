@@ -1,0 +1,44 @@
+body{
+    font-size: 11px;
+}
+.highlight { background-color: rgb(220,220,220); } 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+label, input, button, select, textarea {
+    /*font-size: 12px;*/
+    font-weight: normal;
+    line-height: 10px;
+}
+select{
+    width: 212px;
+    height: 28px;
+}
+textarea{
+    resize: none;
+    min-height: 60px;
+}
+.navbar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+.fixfooterbar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.ui-autocomplete {
+    overflow: auto;
+    overflow-x: hidden;
+    height: 300px;
+}
+.submiterror{
+    border: solid 1px #ff0000;
+}

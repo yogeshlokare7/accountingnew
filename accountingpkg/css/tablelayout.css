@@ -1,0 +1,65 @@
+
+section {
+    position: relative;
+    border: solid 1px gray;
+    padding-top: 32px;
+    background: #76323F;
+}
+
+section table{
+    background: rgb(240,240,240);
+}
+section.positioned {
+    position: absolute;
+    top:100px;
+    left:100px;
+    width:800px;
+}
+.scroll {
+    overflow-y: auto;
+    height: 320px;
+    background: white;
+}
+#data  {
+    border-spacing: 0;
+    width:100%;
+    border: solid 1px gray;
+    font-family: verdana;
+}
+
+#data  td + td {
+    border-left:1px solid #eee;
+}
+#data  td, th {
+    border-bottom:1px solid #eee;
+    color: #000;
+    padding: 10px 25px;
+    text-align: left;
+}
+#data thead th {
+    height: 0;
+    line-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    white-space: nowrap;
+}
+#data thead th div{
+    position: absolute;
+    color: #D7CEC7;
+    padding: 9px 5px;
+     text-align: right;
+    top: 0;
+    margin-left: -25px;
+    line-height: normal;
+    border-left: 1px solid #D7CEC7;
+}
+#data thead th:first-child div{
+    border: none;
+}
+
+#data tbody tr:hover {
+    background-color: #ffff99;
+}
+
